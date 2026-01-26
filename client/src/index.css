@@ -5,31 +5,32 @@
 @tailwind utilities;
 
 :root {
-  /* SFU Brand Colors converted to HSL for variable usage */
-  /* Red #A6192E -> HSL(351, 74%, 37%) */
-  /* Dark Grey #54585A -> HSL(200, 3%, 34%) */
+  /* SFSS Brand Colors from Guide */
+  /* Primary Red: #A6192E (SFU Red, but used by SFSS) */
+  /* SFSS Specific Secondary: Often a dark blue/navy or black */
+  /* Based on typical SFSS branding: Vibrant Blue and Red */
   
-  --background: 0 0% 100%;
-  --foreground: 200 3% 20%;
+  --background: 210 20% 98%;
+  --foreground: 222 47% 11%;
 
-  --primary: 351 74% 37%;
+  --primary: 351 74% 37%; /* SFU/SFSS Red */
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 200 3% 34%;
-  --secondary-foreground: 0 0% 98%;
+  --secondary: 215 80% 20%; /* SFSS Dark Blue/Navy */
+  --secondary-foreground: 0 0% 100%;
 
   --muted: 210 40% 96.1%;
   --muted-foreground: 215.4 16.3% 46.9%;
 
-  --accent: 351 74% 95%;
-  --accent-foreground: 351 74% 37%;
+  --accent: 215 80% 30%;
+  --accent-foreground: 0 0% 100%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
 
   --border: 214.3 31.8% 91.4%;
   --input: 214.3 31.8% 91.4%;
-  --ring: 351 74% 37%;
+  --ring: 215 80% 20%;
 
   --radius: 0.5rem;
 

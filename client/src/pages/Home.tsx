@@ -52,7 +52,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-5xl md:text-7xl lg:text-8xl font-black font-display uppercase leading-[0.9] text-secondary tracking-tighter mb-8"
             >
-              Keep SFU Campus <span className="text-primary">Alive</span>
+              Protect <span className="text-primary">SFSS</span> Campus Life
             </motion.h1>
             
             <motion.p 
