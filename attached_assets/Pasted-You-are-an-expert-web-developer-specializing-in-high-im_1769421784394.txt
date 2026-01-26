@@ -1,0 +1,47 @@
+You are an expert web developer specializing in high-impact advocacy campaign sites for student elections. Build a modern, responsive single-page application (SPA) website using React/Next.js, Tailwind CSS, and Framer Motion for smooth animations. Target Simon Fraser University (SFU) students in Burnaby, BC. The site promotes two related but separate referendums on the 2026 ballot to increase student fees modestly amid inflation and SFU budget cuts—frame it as "protect what you love about campus life" with clear, benefit-focused messaging to avoid confusion from past failures (e.g., 2025 vote lost by 43 votes due to bundled questions).
+
+## Core Goals
+- Persuade students to vote YES on both referendums.
+- Educate on WHY: Inflation eroded funding; no increases for years; projected $787k deficit by 2028-29 without action; protects clubs, DSUs, events, services without drastic cuts.
+- Drive action: Show poll dates (assume March 2026), "Vote YES" CTA, volunteer sign-up form, social share buttons.
+- Tone: Urgent yet positive, student-to-student. Use vibrant SFU reds/blues/grays, bold typography, short videos/infographics of campus events/clubs struggling.
+- Mobile-first, fast-loading, accessible (WCAG AA). Include subtle parallax, micro-animations on scroll.
+
+## Key Content & Messaging (from strategy docs—use exactly)
+### Hero Section (Full-viewport, video background of SFU campus/club events)
+- Headline: "Keep SFU Campus Alive: Vote YES on Fees That Fund YOUR Clubs & Events"
+- Sub: "Inflation hit hard. Without modest increases, cuts coming to clubs, DSUs, services. We've been SO close before—43 votes last time!"
+- Dual CTAs: "Learn SFSS Referendum" | "Learn CGS Groups"
+
+### Referendum 1: SFSS General Fee (Primary Focus)
+- Question (prominently display): "Do you support the SFSS general fee levy increase of $8 for full-time students and $4 for part-time students, starting in Fall 2026, to prevent cuts in club, DSU, and student services funding?"
+- Why Now? (Infographic): No increase for years → real value down; $519k/year revenue covers 2-3yrs inflation; Goldilocks amount (not $12 sticker shock).
+- Impacts: Funds events/programming (30% bylaw rule); avoids deficits; peer schools passed similar.
+- Visual: Before/after charts (no increase: -787k deficit; with: balanced to 2030). Student quotes: "Clubs can't afford events anymore."
+
+### Referendum 2: CGS Groups Page/Section (Tabbed or separate modal/scroll section)
+- Question: "Do you support increasing the fee for each of CJSF Radio, Embark Sustainability, SFPIRG Research, and The Peak by $1.50 per term for full-time students and $0.75 per term for part-time students beginning Fall 2026?"
+- Why? SFU cut millions from student programs/staff; these independent groups provide essential media, sustainability, research, news despite constraints.
+- Visuals: Logos/icons for each group; impact stats (e.g., events hosted, reach).
+
+### Shared Sections
+- **The Stakes**: Side-by-side comparison table:
+  | Without YES | With YES |
+  |-------------|----------|
+  | Club funding cuts, fewer events | Vibrant campus life sustained |
+  | DSU/services erode | $519k+ for operations |
+  | Deficits force big cuts | Stability through 2030 |
+- **Past Proof**: "2025: Students passed one-time increases—proves you support benefits with clear messaging!"
+- **FAQs**: Accordion: "Is $8 a lot?" (No, covers coffee/week); "Why separate?" (Clearer, higher pass rate); "What if I vote no?" (Cuts hurt students).
+- **Get Involved**: Volunteer form (Name, Email, "Tabling/Social/Other"); "Share on IG" buttons.
+- **Footer**: Poll info, SFSS contact (vpinternal@sfss.ca), "Paid by SFSS Council" disclaimer.
+
+## Technical Specs
+- Navigation: Sticky topbar with "SFSS Fee" | "CGS Groups" | "Why Vote YES" | "Volunteer".
+- Interactivity: Vote simulator slider ($8 impact=more events); testimonial carousel.
+- Forms: Integrate Google Forms or simple EmailJS for sign-ups.
+- SEO: Title "Vote YES: Protect SFSS Clubs & Events – 2026 Referendum"; meta desc with questions.
+- Analytics: Google Analytics snippet.
+- Deploy-ready: Generate full code with live preview.
+
+Output: Complete, runnable code in a Next.js project structure. Make it persuasive, scannable, and impossible to scroll past without saying YES!
