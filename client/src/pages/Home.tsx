@@ -31,9 +31,15 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-        {/* Abstract Background Shapes */}
-        <div className="absolute top-0 right-0 w-2/3 h-full bg-secondary/5 -skew-x-12 translate-x-1/4 z-0 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-1/3 h-1/2 bg-primary/5 skew-y-12 -translate-x-1/4 z-0 pointer-events-none" />
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/students-cheering.png" 
+            className="w-full h-full object-cover opacity-10 grayscale hover:grayscale-0 transition-all duration-1000"
+            alt="Students cheering"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
+        </div>
         
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
@@ -145,16 +151,15 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               className="order-1 lg:order-2 relative"
             >
-              {/* Infographic Placeholder */}
-              <div className="aspect-square bg-gradient-to-br from-secondary to-secondary/90 rounded-3xl p-8 flex flex-col justify-center items-center text-white shadow-2xl relative overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&q=80')] opacity-20 bg-cover bg-center mix-blend-overlay group-hover:scale-105 transition-transform duration-700">
-                  {/* Image comment: Crowd of students at university event, representing engagement */}
-                </div>
-                <div className="relative z-10 text-center">
-                  <div className="text-7xl font-black font-display mb-2">$8.00</div>
-                  <div className="text-xl opacity-90 uppercase tracking-widest font-bold">Per Term</div>
-                  <div className="w-16 h-1 bg-white/30 mx-auto my-6"></div>
-                  <div className="text-2xl font-bold">Prevents $787k Deficit</div>
+              <div className="relative group">
+                <img 
+                  src="/matcha-illustration.png" 
+                  alt="Cost of one matcha" 
+                  className="rounded-3xl shadow-2xl w-full transform group-hover:rotate-1 transition-transform duration-500"
+                />
+                <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-2xl shadow-xl max-w-[200px] transform -rotate-3 group-hover:rotate-0 transition-transform">
+                  <p className="font-black font-display text-2xl uppercase leading-none mb-1">$8.00</p>
+                  <p className="text-sm font-bold opacity-90 uppercase">Just the cost of one matcha per term.</p>
                 </div>
               </div>
             </motion.div>
@@ -209,7 +214,11 @@ export default function Home() {
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div {...fadeIn} className="bg-muted/30 rounded-3xl overflow-hidden border border-border">
-            <div className="grid md:grid-cols-2">
+            <div className="grid md:grid-cols-3">
+              <div className="p-8 md:p-12 border-b md:border-b-0 md:border-r border-border bg-white flex flex-col items-center text-center justify-center">
+                <img src="/services-icons.png" alt="Student services at risk" className="w-48 h-48 mb-6 grayscale" />
+                <p className="font-bold text-secondary uppercase tracking-widest text-sm">Action Required</p>
+              </div>
               <div className="p-8 md:p-12 border-b md:border-b-0 md:border-r border-border">
                 <h3 className="text-3xl font-black font-display uppercase text-red-600 mb-6">Without YES</h3>
                 <ul className="space-y-4">
