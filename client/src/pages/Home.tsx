@@ -56,9 +56,9 @@ export default function Home() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-5xl md:text-7xl lg:text-8xl font-black font-display uppercase leading-[0.9] text-secondary tracking-tighter mb-8"
+              className="text-5xl md:text-7xl lg:text-8xl font-bold font-display uppercase leading-[1.1] text-secondary tracking-normal mb-8"
             >
-              Protect <span className="text-primary">SFSS</span> Campus Life
+              Protect Campus Life, Clubs & Unions
             </motion.h1>
             
             <motion.p 
@@ -67,7 +67,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed"
             >
-              Inflation hit hard. Without modest increases, cuts are coming to clubs, DSUs, and services. We've been SO close before—<span className="text-foreground font-bold border-b-2 border-primary/30">43 votes last time!</span>
+              Help us make campus life better again. Inflation hit hard and without support, cuts are coming to clubs, DSUs, and services.
             </motion.p>
             
             <motion.div 
