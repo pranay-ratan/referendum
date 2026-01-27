@@ -131,14 +131,14 @@ export default function Home() {
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary font-bold">1</div>
                   <div>
                     <h4 className="text-xl font-bold mb-2">The Reality Check</h4>
-                    <p className="text-muted-foreground">No increase for years means real value is down. We're facing a $787k projected deficit without action.</p>
+                    <p className="text-muted-foreground">SFSS, the Simon Fraser Student Society, has not had a fee increase for years. Inflation has reduced the real value of student fees, creating a $787k projected deficit without action.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 text-primary font-bold">2</div>
                   <div>
                     <h4 className="text-xl font-bold mb-2">Direct Impact</h4>
-                    <p className="text-muted-foreground">This modest fee generates $519k/year revenue, directly funding the events and programming you love.</p>
+                    <p className="text-muted-foreground">This modest fee increase generates $519k/year revenue, directly funding SFSS student society operations, campus events, and student programming.</p>
                   </div>
                 </div>
               </div>
@@ -196,8 +196,8 @@ export default function Home() {
             />
             <GroupCard 
               icon={<FlaskConical className="w-8 h-8" />}
-              title="SFPIRG Research"
-              desc="Social justice and public interest research group for student advocacy."
+              title="SFPIRG"
+              desc="Social justice and public interest advocacy group for student initiatives."
               price="$1.50"
             />
             <GroupCard 
@@ -290,7 +290,7 @@ export default function Home() {
               <AccordionItem value="item-2" className="border-border bg-white px-6 rounded-xl mb-4 shadow-sm">
                 <AccordionTrigger className="text-lg font-bold hover:no-underline hover:text-primary">Why separate fees?</AccordionTrigger>
                 <AccordionContent className="text-muted-foreground text-base pb-6">
-                  The SFSS General Fee covers the student society's core operations. The CGS Groups are independent organizations (Radio, Newspaper, PIRG, Embark) that require distinct funding lines to maintain their independence and specific mandates.
+                  The SFSS General Fee covers the Simon Fraser Student Society's core operations as the official student government. The CGS Groups are independent student organizations (Radio, Newspaper, SFPIRG, Embark) that require separate funding to maintain their independence and specific mandates.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="border-border bg-white px-6 rounded-xl mb-4 shadow-sm">

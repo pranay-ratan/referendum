@@ -5,9 +5,8 @@ import * as schema from "@shared/schema";
 const { Pool } = pg;
 
 if (!process.env.DATABASE_URL) {
-  throw new Error(
-    "DATABASE_URL must be set. Did you forget to provision a database?",
-  );
+  // For local development, use a default connection string
+  process.env.DATABASE_URL = "postgres://user:password@localhost:5432/assetmanager";
 }
 
 export const pool = new Pool({ connectionString: process.env.DATABASE_URL });
