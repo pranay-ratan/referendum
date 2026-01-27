@@ -43,13 +43,13 @@ export default function Home() {
         
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <motion.div
+            <motion.div 
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}
               className="inline-block px-4 py-1 mb-6 border border-primary/20 bg-primary/5 rounded-full text-primary font-bold tracking-wider text-sm uppercase"
             >
-              2026 Referendum Campaign
+              Student Union Campaign
             </motion.div>
             
             <motion.h1 
@@ -264,11 +264,6 @@ export default function Home() {
             </div>
           </motion.div>
           
-          <div className="text-center mt-12">
-            <div className="inline-block px-6 py-3 bg-primary/10 rounded-full text-primary font-bold">
-              🎉 2025 Proof: Students already passed one-time increases! Let's make it permanent.
-            </div>
-          </div>
         </div>
       </section>
 
