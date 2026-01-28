@@ -15,7 +15,7 @@ export default defineConfig({
   },
   root: path.resolve(import.meta.dirname, "client"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "docs"),
+    outDir: path.resolve(import.meta.dirname, "."),
     emptyOutDir: true,
   },
   base: "/referendum/",

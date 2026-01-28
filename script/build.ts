@@ -40,7 +40,7 @@ async function buildAll() {
 
   // Create 404.html for GitHub Pages (needed for client-side routing)
   console.log("creating 404.html for GitHub Pages...");
-  await copyFile("docs/index.html", "docs/404.html");
+  await copyFile("index.html", "404.html");
 
   console.log("building server...");
   const pkg = JSON.parse(await readFile("package.json", "utf-8"));
