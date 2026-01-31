@@ -31,11 +31,8 @@ export function Navigation() {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Link href="/">
-          <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="SFSS Referendum Logo" className="h-8 w-auto" />
-            <div className="text-2xl font-bold font-display uppercase tracking-tighter text-primary cursor-pointer">
-              Vote <span className="text-foreground">Yes</span>
-            </div>
+          <div className="text-2xl font-bold font-display uppercase tracking-tighter text-primary cursor-pointer">
+            Vote <span className="text-foreground">Yes</span>
           </div>
         </Link>
 
